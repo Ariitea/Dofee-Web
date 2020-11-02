@@ -1,2 +1,26 @@
 @import url(//db.onlinewebfonts.com/c/794a0de6a529290274465576a9a6990b?family=Block+Berthold);
 @font-face {font-family: "Block Berthold"; src: url("//db.onlinewebfonts.com/t/794a0de6a529290274465576a9a6990b.eot"); src: url("//db.onlinewebfonts.com/t/794a0de6a529290274465576a9a6990b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/794a0de6a529290274465576a9a6990b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/794a0de6a529290274465576a9a6990b.woff") format("woff"), url("//db.onlinewebfonts.com/t/794a0de6a529290274465576a9a6990b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/794a0de6a529290274465576a9a6990b.svg#Block Berthold") format("svg"); } 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Custom properties */
+:root {
+    --Deep-Blue: #161922;
+    --Nude: #F3B894;
+    --Nude-Alt: rgba(243/255, 184/255, 148/255, 0.2);
+}
+html{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Block Berthold";
+    font-size: 1.6rem;
+    color: var(--Nude-Alt);
+    background-color: white;
+}
