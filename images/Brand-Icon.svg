@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Brand-icon@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="29.9352361%" y1="7.16662003%" x2="67.5327407%" y2="88.5216305%" id="linearGradient-1">
+            <stop stop-color="#313647" offset="0%"></stop>
+            <stop stop-color="#161922" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WebApp-Copy-7" transform="translate(-140.000000, -50.000000)">
+            <g id="left">
+                <g id="Brand-icon" transform="translate(140.000000, 50.000000)">
+                    <circle id="Oval" stroke="#F3B894" stroke-width="8" fill="url(#linearGradient-1)" cx="70" cy="70" r="66"></circle>
+                    <text id="Brand" font-family="Hunters" font-size="65" font-weight="normal" letter-spacing="0.845000029" fill="#F3B894">
+                        <tspan x="14.5313475" y="83">Dofee</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
