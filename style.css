@@ -23,7 +23,7 @@ html{
 body{
     font-family: "Block Berthold";
     color: var(--Nude-Alt);
-    background-color: white;
+    background-color: var(--Deep-Blue);
 }
 ul {
     list-style: none;
@@ -114,24 +114,41 @@ h3{
     font-weight: bolder;
     font-size: 24px;
 }
-
+.container-grid{
+    margin-left: 7.8%;
+}
 .content{
-    margin-left: 21.9%;
+    margin-left: 50%;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:white;
+    background-color:transparent;
     columns: 2;
     border: 1px grey ;
     border-style: none;
     width: 540px;
     height: 540px;
+    list-style: none;
 }
 .rowOne{
     display: flex;
     flex-direction: row;
-    background-color: lawngreen;
+    background-color: white;
+    align-items: center;
+    width: 1080px;
+}
+.rowTwo{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    width: 1080px;
+}
+.rowThree{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
     align-items: center;
     width: 1080px;
 }
@@ -141,7 +158,7 @@ H1{
     align-items: center;
     font-size: 60px;
     padding-bottom: 70px;
-    padding-left: 10%;
+    padding-left: -5%;
     text-align: center;
     color: var(--Deep-Blue);
     z-index: 200;
@@ -149,11 +166,12 @@ H1{
 .item {
     /* display: flex; */
     flex-direction: row;
-    /* align-items: center; */
+    align-items: center;
     position: absolute;
     padding-top: 93px;
     padding-left: 61px;
     z-index: 100;
+    background-color: white;
 }
 .item-menus{
     align-items: center;
@@ -175,6 +193,7 @@ H1{
     height: 540px;
 }
 .item-petitdej{
+    background-color: white;
     width: 540px;
     height: 540px;
 }
