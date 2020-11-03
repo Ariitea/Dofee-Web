@@ -12,6 +12,8 @@
     --Deep-Blue: #161922;
     --Nude: #F3B894;
     --Nude-Alt: rgba(243/255, 184/255, 148/255, 0.2);
+    --DrinkColor: #FFEFDD;
+    --PatisseriesColor: #FFF4E8;
 }
 html{
     margin: 0%;
@@ -20,7 +22,142 @@ html{
 }
 body{
     font-family: "Block Berthold";
-    font-size: 1.6rem;
     color: var(--Nude-Alt);
     background-color: white;
+}
+ul {
+    list-style: none;
+}
+section {
+    padding: 5rem 0;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--Nude);
+    font-size: 17.5px;
+    /* font-weight: bolder; */
+}
+.container {
+    width: 420px;
+    max-width: 420px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+
+}
+
+.left-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 420;
+    height: 100%;
+    background-color: var(--Deep-Blue);
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 140px;
+    height: 140px;
+}
+
+.logo:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 123px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-item{
+    padding: 14px;   
+    font-size: 25px;
+}
+.pmr {
+    background-color: var(--Nude);
+    color: var(--Deep-Blue);
+    width: 420px;
+    height: 164px;
+    border: none;
+}
+.button-pmr{
+    padding-top: 144px;
+}
+.nav-link{
+    opacity: 0.2;
+}
+.nav-link:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.icon-pmr{
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+h3{
+    color: var(--Deep-Blue);
+    font: 'Block Berthold';
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.content{
+    margin-left: 21.9%;
+    position: relative;
+    display: flew;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    columns: 2;
+    border: 1px grey ;
+    border-style: none;
+    width: 540px;
+    height: 540px;
+}
+H1{
+    position: relative;
+    align-items: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+    padding-left: 10%;
+    text-align: center;
+    color: var(--Deep-Blue);
+    z-index: 200;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    padding-top: 93px;
+    padding-left: 61px;
+}
+.item-boissons{
+    background-color: var(--DrinkColor);
+    width: 540px;
+    height: 540px;
+}
+
+.item-patisseries{
+    background-color: var(--PatisseriesColor);
+    width: 540px;
+    height: 540px;
+}
+.item-brunch{
+    background-color: var(--DrinkColor);
+    width: 540px;
+    height: 540px;
 }
