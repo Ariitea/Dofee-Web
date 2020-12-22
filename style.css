@@ -202,25 +202,3 @@ H1{
     width: 540px;
     height: 540px;
 }
-
-@media screen and (min-width: 768px){
-  /* Header section styles */
-  .header{
-    height: 10rem;
-  }
-  .header.active{
-  height: 6rem;
-  }
-}
-
-@media screen and (min-width: 1000px){
-   section:not(.booking){
-     padding: 10rem 0;
-   }
- }
-
-@media screen and (min-width: 1200px){
-  .book-form .input-group:first-child{
-    flex: 0 0 30%;
-  }
-}

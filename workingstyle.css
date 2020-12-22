@@ -48,3 +48,12 @@ body{
   align-items: center;
   justify-content: space-around;
 }
+
+
+@media screen and (min-width: 768px){
+  /* Header section styles */
+  .background{
+    width: auto;
+    height: auto;
+  }
+}
