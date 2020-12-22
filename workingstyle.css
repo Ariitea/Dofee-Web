@@ -53,7 +53,7 @@ body{
 @media screen and (min-width: 768px){
   /* Header section styles */
   .background{
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 50%;
   }
 }
